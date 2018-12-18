@@ -8,4 +8,9 @@ Create a script in the ArcMap catalog then create two input for the script - fol
 It will create one R^2 plot and one point data in the NDVI folder.
 
 
+#NDVI_Average.py
+Python Version: 3.5 with ArcGIS Pro 2
 
+Not necssary to load any data to the ArcGIS. Just insert the file path and run the code.
+
+A excell file will be created on the file directory.
