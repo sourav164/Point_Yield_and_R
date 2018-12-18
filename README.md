@@ -23,3 +23,5 @@ Takes multiple input manually and better not to run before full comments are add
 
 This script will melt the point NDVI data then add each points properties into a new excel file.
 
+# Rplot.rmd
+Must not be used at any case. Details description will be added.
