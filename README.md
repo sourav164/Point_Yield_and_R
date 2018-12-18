@@ -14,3 +14,12 @@ Python Version: 3.5 with ArcGIS Pro 2.
 Not necessary to load any data to the ArcGIS. Just insert the file path and run the code.
 
 A excel file will be created on the file directory.
+
+# Data Frame Edit.py
+The excell file created using Zonal+Regression+resolutionplot_script.py are not well organized. This code will organize them and create single sheet, finally save them into the desired location in csv format.
+
+# Melt Data.py
+Takes multiple input manually and better not to run before full comments are added (in current version, some comments are missing).
+
+This script will melt the point NDVI data then add each points properties into a new excel file.
+
