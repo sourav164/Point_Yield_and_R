@@ -11,6 +11,6 @@ It will create one R^2 plot and one point data in the NDVI folder.
 #NDVI_Average.py
 Python Version: 3.5 with ArcGIS Pro 2
 
-Not necssary to load any data to the ArcGIS. Just insert the file path and run the code.
+Not necessary to load any data to the ArcGIS. Just insert the file path and run the code.
 
-A excell file will be created on the file directory.
+A excel file will be created on the file directory.
