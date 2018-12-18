@@ -1,16 +1,8 @@
-
-# coding: utf-8
-
-# In[73]:
-
-
 import pandas as pd, os
 
-
-# In[78]:
-
-
 folder = r"E:\Current Work Folder\Field Trip data\Sorted\plot"
+
+#rewrite the data in desired format
 for root, dirs, files in os.walk(folder):
     for jfile in files:
         if jfile.endswith("s.xls"):
@@ -31,13 +23,6 @@ for root, dirs, files in os.walk(folder):
                  Sentinal.iloc[:, 1:], 
                  RE.iloc[:, 1:]], axis=1)
             
-            #save the file
+            #save the file in the same name with csv extension
             new.to_csv(csv_location)
-            
-
-
-# In[71]:
-
-
-del new
-
+            del new
